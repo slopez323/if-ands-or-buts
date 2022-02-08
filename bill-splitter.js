@@ -9,10 +9,10 @@ if (p1Amt === p2Amt){
     console.log("No one owes anyone anything.")
 } else if (p1Amt > p2Amt) {
     let amtOwed = p1Amt - (totalAmt/2)
-    console.log(`Person 2 owes Person 1 ${amtOwed}.`)
+    console.log(`Person 2 owes Person 1 $${amtOwed}.`)
 } else if (p2Amt > p1Amt) {
     let amtOwed = p2Amt - (totalAmt/2)
-    console.log(`Person 1 owes Person 2 ${amtOwed}.`)
+    console.log(`Person 1 owes Person 2 $${amtOwed}.`)
 } else {
     console.log("error")
 }
