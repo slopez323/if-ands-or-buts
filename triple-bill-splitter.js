@@ -10,7 +10,7 @@ let p2Bal = (totalAmt / 3 - p2Amt).toFixed(2)
 let p3Bal = (totalAmt / 3 - p3Amt).toFixed(2)
 // console.log(`${p1Bal} ${p2Bal} ${p3Bal}`)
 
-if (p1Bal === 0 && p2Bal === 0 && p3Bal === 0) {
+if (p1Bal == 0 && p2Bal == 0 && p3Bal == 0) {
     console.log("No one owes anyone anything.")
 } else if (p1Bal > 0 && p2Bal <= 0 && p3Bal <= 0) {
     console.log(`Person 1 owes Person 2 $${-p2Bal} and owes Person 3 $${-p3Bal}.`)
