@@ -19,11 +19,11 @@ if (p1Bal === 0 && p2Bal === 0 && p3Bal === 0) {
 } else if (p3Bal > 0 && p1Bal <= 0 && p2Bal <= 0) {
     console.log(`Person 3 owes Person 1 $${-p1Bal} and owes Person 2 $${-p2Bal}.`)
 } else if (p1Bal > 0 && p2Bal > 0){
-    console.log(`Person 1 owes Person 3 $${-p1Bal} and Person 2 owes Person 3 $${-p2Bal}.`)
+    console.log(`Person 1 owes Person 3 $${p1Bal} and Person 2 owes Person 3 $${p2Bal}.`)
 } else if (p1Bal > 0 && p3Bal > 0){
-    console.log(`Person 1 owes Person 2 $${-p1Bal} and Person 3 owes Person 2 $${-p3Bal}.`)
+    console.log(`Person 1 owes Person 2 $${p1Bal} and Person 3 owes Person 2 $${p3Bal}.`)
 } else if (p3Bal > 0 && p2Bal > 0){
-    console.log(`Person 2 owes Person 1 $${-p2Bal} and Person 3 owes Person 1 $${-p3Bal}.`)
+    console.log(`Person 2 owes Person 1 $${p2Bal} and Person 3 owes Person 1 $${p3Bal}.`)
 } else {
     console.log("error")
 }
